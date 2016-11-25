@@ -1,0 +1,7 @@
+{
+    "Filter": "js/filter",
+    "Factory": "js/factory",
+    "Utils": "js/utils",
+    "Directive": "js/directive",
+    "Progress":"js/progress"
+}

@@ -1,0 +1,51 @@
+$path: "/images/";
+#ngProgress {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    left: 0;
+}
+html {
+    background: #eff3f5;
+    -webkit-box-sizing: border-box!important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: -apple-system-font, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+._loading {
+    background: url($path + "loading.svg");
+    background-size: 32px 32px;
+    display: inline-block;
+    padding-left: 32px;
+    text-indent: 3px;
+    height: 32px;
+}
+.mainLoading {
+    display: block;
+    width: 0;
+    position: absolute;
+    left: 50%;
+    top: 36px;
+    margin-left: -16px;
+}
+._hide {
+    display: none!important;
+}
+._show {
+    display: block!important;
+}
+ul {
+    list-style: none;
+}
+#doc {
+    min-height: 100%;
+    position: relative;
+}
+#mainWrap {
+    opacity: 0;
+    display: none;
+    &.vewiAble {
+        opacity: 1;
+        display: block;
+    }
+}
