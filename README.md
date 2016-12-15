@@ -13,6 +13,8 @@ cd angular-dynamic-load && npm install
 npm start // dev
 ```
 
+open brower and enter URL `http://localhost:1984`
+
 ### build
 
 ```
